@@ -11,7 +11,7 @@
 
 ## 카테고리
 
-- 브라우저
+- [브라우저](https://github.com/SeoYeonii/frontend-interview/tree/main/browser)
   - 브라우저 구조 및 렌더링 엔진
   - 브라우저 저장소
   - 최적화
