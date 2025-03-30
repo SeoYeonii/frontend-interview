@@ -18,7 +18,7 @@
   - CORS
   - Web Server / WAS
   - 크로스브라우징
-- JavaScript
+- [JavaScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javaScript)
   - JavaScript 기본 개념
   - 실행 컨텍스트 / 스코프 / 클로저
   - 객체 & 프로토타입 & 클래스
