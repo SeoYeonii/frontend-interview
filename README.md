@@ -18,7 +18,17 @@
   - CORS
   - Web Server / WAS
   - 크로스브라우징
-- js
+- JavaScript
+  - JavaScript 기본 개념
+  - 실행 컨텍스트 / 스코프 / 클로저
+  - 객체 & 프로토타입 & 클래스
+  - 함수와 this
+  - 이벤트 & DOM
+  - 비동기 & 동시성
+  - ECMAScript
+  - 가비지컬랙터
+  - 함수형 프로그래밍
+  - 프로젝트
 - React
 - 네트워크
 - 프로젝트
