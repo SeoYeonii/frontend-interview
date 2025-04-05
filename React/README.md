@@ -8,48 +8,106 @@
 
 ### React 기본 개념
 
-| 질문                                                                |  중요도  |
-| :------------------------------------------------------------------ | :------: |
-| React란 무엇이고 주요 특징은 무엇인가요?                            | ⭐️ 필수 |
-| Element와 Component의 차이는 무엇인가요?                            | ⭐️ 필수 |
-| 클래스 컴포넌트를 함수형 컴포넌트보다 언제 사용하나요?              | ✅ 중요  |
-| React에서 state와 props                                             | ⭐️ 필수 |
-| HTML과 React의 이벤트 처리 방식 차이는?                             | ✅ 중요  |
-| React의 Synthetic Event란?                                          | 🔍 참고  |
-| key prop은 무엇이고, 배열 렌더링 시 사용하는 이유는?                | ⭐️ 필수 |
-| Virtual DOM이란 무엇이고 어떻게 동작하나요?                         | ⭐️ 필수 |
-| Shadow DOM과 Virtual DOM의 차이는?                                  | 🔍 참고  |
-| React Fiber와 주요 목적은?                                          | ✅ 중요  |
-| Controlled Component, Uncontrolled Component                        | ✅ 중요  |
-| Lifting State Up이란?                                               | ⭐️ 필수 |
-| 고차 컴포넌트(Higher-Order Component)란?                            | ✅ 중요  |
-| Reconciliation이란?                                                 | ✅ 중요  |
-| React는 왜 class 대신 className을 사용하나요?                       | 🔍 참고  |
-| Fragments란?                                                        | ✅ 중요  |
-| Stateless components, Stateful components                           | 🔍 참고  |
-| React의 장점, 단점                                                  | ⭐️ 필수 |
-| react-dom 패키지의 용도는?                                          | 🔍 참고  |
-| ReactDOMServer란?                                                   | 🔍 참고  |
-| React에서 dangerouslySetInnerHTML을 사용하는 방법은?                | ✅ 중요  |
-| React에서 스타일을 적용하는 방법은?                                 | ✅ 중요  |
-| React에서 이벤트 처리 방식은 HTML과 어떻게 다른가요?                | ✅ 중요  |
-| 배열 렌더링 시 key로 index를 사용하는 것의 영향은?                  | ⭐️ 필수 |
-| props를 DOM 요소에 spread할 때 주의해야 하는 이유는?                | ✅ 중요  |
-| React에서 컴포넌트를 메모이제이션(memoization)하려면 어떻게 하나요? | ✅ 중요  |
-| 서버 사이드 렌더링(SSR)을 어떻게 구현하나요?                        | ✅ 중요  |
-| React의 production 모드는 어떻게 활성화하나요?                      | 🔍 참고  |
-| Hooks는 render props나 고차 컴포넌트를 대체하나요?                  | ✅ 중요  |
-| 컴포넌트 이름이 대문자로 시작해야 하는 이유는 무엇인가요?           | 🔍 참고  |
-| React v16에서 커스텀 DOM 속성을 지원하나요?                         | 🔍 참고  |
-| React와 ReactDOM의 차이는 무엇인가요?                               | ✅ 중요  |
-| ReactDOM이 React에서 분리된 이유는 무엇인가요?                      | 🔍 참고  |
-| 브라우저 크기 조정 시 뷰를 다시 렌더링하려면 어떻게 하나요?         | ✅ 중요  |
-| React에서 props는 왜 직접 수정할 수 없나요?                         | ⭐️ 필수 |
-| react-router에서 Google Analytics를 추가하려면 어떻게 하나요?       | 🔍 참고  |
-| 기본 React에서도 async/await를 사용할 수 있나요?                    | ✅ 중요  |
-| 스타일 모듈(styles module)의 장점은 무엇인가요?                     | ✅ 중요  |
-| React에서 인기 있는 린터(Linter) 도구에는 어떤 것들이 있나요?       | 🔍 참고  |
-| `React.lazy()`란?                                                   | ✅ 중요  |
+| 질문                                                                        |  중요도  |
+| :-------------------------------------------------------------------------- | :------: |
+| React란 무엇이고 주요 특징은 무엇인가요?                                    | ⭐️ 필수 |
+| React는 화면을 어떻게 업데이트하나요?                                       | ✅ 중요  |
+| React는 어떤 브라우저를 지원하나요?                                         | 🔍 참고  |
+| Element와 Component의 차이는 무엇인가요?                                    | ⭐️ 필수 |
+| 브라우저는 JSX 코드를 이해하나요?                                           | 🔍 참고  |
+| JSX에서 여러 태그를 감싸야 하는 이유는?                                     | ✅ 중요  |
+| JSX 없이 React를 사용할 수 있나요?                                          | 🔍 참고  |
+| JSX는 어떻게 XSS 같은 인젝션 공격을 방지하나요?                             | ✅ 중요  |
+| 컴포넌트 생명주기의 단계는 어떻게 되나요?                                   | 🔍 참고  |
+| React의 라이프사이클 메서드에는 어떤 것들이 있나요?                         | 🔍 참고  |
+| 클래스 컴포넌트를 함수형 컴포넌트보다 언제 사용하나요?                      | ✅ 중요  |
+| constructor에서 `setState`를 호출하면 무슨 일이 일어나나요?                 | ✅ 중요  |
+| `super(props)`를 사용하는 이유는 무엇인가요?                                | ✅ 중요  |
+| React에서 state와 props                                                     | ⭐️ 필수 |
+| 왜 state를 직접 수정하면 안 되나요?                                         | ⭐️ 필수 |
+| 동적인 키 이름으로 state를 설정하려면 어떻게 하나요?                        | ✅ 중요  |
+| `setState`의 콜백 함수는 왜 사용하나요?                                     | ✅ 중요  |
+| 이전 state를 기반으로 새 state를 계산할 때는 어떻게 하나요?                 | ⭐️ 필수 |
+| 초기 state를 설정할 때 props를 사용하면 어떤 일이 일어나나요?               | 🔍 참고  |
+| Prop Drilling이란?                                                          | ✅ 중요  |
+| defaultProps란 무엇인가요?                                                  | ✅ 중요  |
+| `ref`는 어떤 용도로 사용되나요?                                             | ✅ 중요  |
+| `ref`는 어떻게 생성하나요?                                                  | ✅ 중요  |
+| inline ref 함수는 왜 비추천되나요?                                          | ✅ 중요  |
+| 컴포넌트 라이브러리에서 `forwardRef`를 사용할 때 추가 주의가 필요한 이유는? | ✅ 중요  |
+| 캡처링 단계 이벤트란?                                                       | 🔍 참고  |
+| React에서 클릭 이벤트를 코드로 발생시키려면?                                | 🔍 참고  |
+| 이벤트 핸들러에는 왜 error boundary가 필요 없나요?                          | 🔍 참고  |
+| 함수가 여러 번 호출되는 걸 어떻게 막나요?                                   | ✅ 중요  |
+| try/catch와 error boundary는 어떻게 다른가요?                               | ✅ 중요  |
+| `forwardRef`란 무엇인가요?                                                  | ✅ 중요  |
+| `forwardRef`를 React DevTools에서 어떻게 디버깅하나요?                      | 🔍 참고  |
+| forwardref 안쓰고 그냥 ref 전달하면 왜 안되나요?                            | ✅ 중요  |
+| string ref는 왜 레거시로 간주되나요?                                        | 🔍 참고  |
+| HTML과 React의 이벤트 처리 방식 차이는?                                     | ✅ 중요  |
+| JSX에서 이벤트 핸들러를 바인딩하려면 어떻게 하나요?                         | ✅ 중요  |
+| React의 Synthetic Event란?                                                  | ✅ 중요  |
+| JSX에 함수를 괄호 열고 호출하는 형태로 작성했을 때 일어나는 일은?           | ✅ 중요  |
+| key prop은 무엇이고, 배열 렌더링 시 사용하는 이유는?                        | ⭐️ 필수 |
+| key로 index를 안전하게 사용할 수 있는 조건은?                               | ✅ 중요  |
+| Virtual DOM이란 무엇이고 어떻게 동작하나요?                                 | ⭐️ 필수 |
+| Shadow DOM과 Virtual DOM의 차이는?                                          | 🔍 참고  |
+| React Fiber와 주요 목적은?                                                  | ✅ 중요  |
+| Controlled Component, Uncontrolled Component                                | ✅ 중요  |
+| Lifting State Up이란?                                                       | ✅ 중요  |
+| props proxy란?                                                              | 🔍 참고  |
+| React에서 데코레이터를 어떻게 사용하나요?                                   | 🔍 참고  |
+| render hijacking이란?                                                       | 🔍 참고  |
+| `displayName` 속성의 목적은?                                                | 🔍 참고  |
+| 고차 컴포넌트(Higher-Order Component)란?                                    | ✅ 중요  |
+| 고차 컴포넌트(HOC)에서 props proxy는 어떻게 구성하나요?                     | 🔍 참고  |
+| HOC(고차 컴포넌트)의 한계는 무엇인가요?                                     | ✅ 중요  |
+| Reconciliation이란?                                                         | ✅ 중요  |
+| diffing 알고리즘이란?                                                       | ✅ 중요  |
+| React의 diffing 알고리즘이 따르는 규칙은?                                   | ✅ 중요  |
+| React는 왜 class 대신 className을 사용하나요?                               | ✅ 중요  |
+| Fragments란?                                                                | ✅ 중요  |
+| Stateless components, Stateful components                                   | ✅ 중요  |
+| React의 장점, 단점                                                          | ✅ 중요  |
+| Real DOM vs Virtual DOM 차이?                                               | ✅ 중요  |
+| react-dom 패키지의 용도는?                                                  | ✅ 중요  |
+| ReactDOMServer란?                                                           | 🔍 참고  |
+| React에서 dangerouslySetInnerHTML을 사용하는 방법은?                        | 🔍 참고  |
+| React에서 스타일을 적용하는 방법은?                                         | ✅ 중요  |
+| React에서 이벤트 처리 방식은 HTML과 어떻게 다른가요?                        | ✅ 중요  |
+| 배열 렌더링 시 key로 index를 사용하는 것의 영향은?                          | ✅ 중요  |
+| windowing 기법이란?                                                         | 🔍 참고  |
+| props를 DOM 요소에 spread할 때 주의해야 하는 이유는?                        | ✅ 중요  |
+| React에서 컴포넌트를 메모이제이션(memoization)하려면 어떻게 하나요?         | ✅ 중요  |
+| 서버 사이드 렌더링(SSR)을 어떻게 구현하나요?                                | ✅ 중요  |
+| React의 production 모드는 어떻게 활성화하나요?                              | 🔍 참고  |
+| Hooks는 render props나 고차 컴포넌트를 대체하나요?                          | ✅ 중요  |
+| 컴포넌트 이름이 대문자로 시작해야 하는 이유는 무엇인가요?                   | 🔍 참고  |
+| React v16에서 커스텀 DOM 속성을 지원하나요?                                 | 🔍 참고  |
+| React와 ReactDOM의 차이는 무엇인가요?                                       | ✅ 중요  |
+| ReactDOM이 React에서 분리된 이유는 무엇인가요?                              | ✅ 중요  |
+| `react-dom`의 `render()` 메서드 목적은?                                     | 🔍 참고  |
+| 브라우저 크기 조정 시 뷰를 다시 렌더링하려면 어떻게 하나요?                 | 🔍 참고  |
+| React에서 props는 왜 직접 수정할 수 없나요?                                 | ⭐️ 필수 |
+| react-router에서 Google Analytics를 추가하려면 어떻게 하나요?               | 🔍 참고  |
+| 기본 React에서도 async/await를 사용할 수 있나요?                            | ✅ 중요  |
+| 스타일 모듈(styles module)의 장점은 무엇인가요?                             | ✅ 중요  |
+| React에서 인기 있는 린터(Linter) 도구에는 어떤 것들이 있나요?               | 🔍 참고  |
+| `React.lazy()`란?                                                           | ✅ 중요  |
+| Suspense 컴포넌트란?                                                        | ✅ 중요  |
+| React v16에서의 에러 바운더리란?                                            | ✅ 중요  |
+| Error Boundary는 어디에 배치하는 것이 적절한가요?                           | ✅ 중요  |
+| React 16에서 잡히지 않은 오류의 동작은?                                     | 🔍 참고  |
+| React v15에서는 에러 바운더리를 어떻게 처리했나요?                          | 🔍 참고  |
+| 어떤 경우에 Error Boundary가 오류를 잡지 못하나요?                          | ✅ 중요  |
+| React Strict Mode란?                                                        | ✅ 중요  |
+| CRA(Create React App)는 무엇이며, 장점은?                                   | ✅ 중요  |
+| CRA 프로젝트에서 폴리필(polyfill)을 추가하는 방법은?                        | 🔍 참고  |
+| CRA에서 http 대신 https를 사용하려면?                                       | 🔍 참고  |
+| CRA에서 상대 경로(`../../components/...`) import를 피하려면?                | ✅ 중요  |
+| `renderToNodeStream()`의 목적은?                                            | 🔍 참고  |
+| Next.js란? 주요 기능은?                                                     | ✅ 중요  |
+| 좋아하는 react stack?                                                       | 🔍 참고  |
 
 ### React Router
 
