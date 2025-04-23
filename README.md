@@ -34,7 +34,13 @@
   - React Router
   - Hook
   - 성능
-- 네트워크
+- [네트워크](https://github.com/SeoYeonii/frontend-interview/tree/main/network)
+  - 기본 이론
+  - 브라우저 작동 원리
+  - HTTP/웹 통신
+  - 보안
+  - 아키텍처/실무
+  - 최신 기술
 - 프로젝트
 - HTML
 - CSS
