@@ -128,6 +128,9 @@
 | 이벤트 위임(Event Delegation)이란 무엇인가요?                  | ✅ 중요  |
 | 이벤트 버블링(Event Bubbling)이란?                             | ⭐️ 필수 |
 | 이벤트 캡처링(Event Capturing)이란?                            | ✅ 중요  |
+| 실제 브라우저가 이벤트를 감지하는 방법                         | ✅ 중요  |
+| 캡쳐링 단계에서 이벤트를 감지하는 방법                         | ✅ 중요  |
+| 버블링/캡쳐링을 중단하는 방법                                  | ✅ 중요  |
 | HTML 속성(attribute)과 DOM 속성(property)의 차이는?            | ✅ 중요  |
 | `event.target`과 `event.currentTarget`의 차이는?               | ⭐️ 필수 |
 | `event.preventDefault()`와 `event.stopPropagation()`의 차이는? | ⭐️ 필수 |
