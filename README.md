@@ -41,6 +41,10 @@
   - 보안
   - 아키텍처/실무
   - 최신 기술
-- 프로젝트
+- [프로젝트](https://github.com/SeoYeonii/frontend-interview/tree/main/project)
+
+  - 프로젝트 개별 질문
+  - 프로젝트 공통
+
 - HTML
 - CSS
