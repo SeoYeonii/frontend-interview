@@ -46,6 +46,9 @@
   - 프로젝트 개별 질문
   - 프로젝트 공통
 
+- [자료구조](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure)
+- [알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm)
+
 [ 추후 추가]
 
 - HTML
