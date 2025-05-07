@@ -12,7 +12,7 @@
 ## 카테고리
 
 - [브라우저](https://github.com/SeoYeonii/frontend-interview/tree/main/browser)
-  - 브라우저 구조 및 렌더링 엔진
+  - [브라우저 구조 및 렌더링 엔진](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%97%94%EC%A7%84)
   - 브라우저 저장소
   - 최적화
   - CORS

@@ -11,17 +11,17 @@
 
 ### 브라우저 구조 및 렌더링 엔진
 
-| 질문                                                      |  중요도  |
-| :-------------------------------------------------------- | :------: |
-| 브라우저 정의 & 구성요소                                  | ✅ 중요  |
-| 웹 브라우저에서 사이트를 렌더링 하는 과정이 어떻게 되나요 | ⭐️ 필수 |
-| 렌더링 엔진은 멀티스레드로 동작하는가?                    | 🔍 참고  |
-| JavaScript가 Layout에 어떤 영향을 미치나?                 | ✅ 중요  |
-| DOM                                                       | ⭐️ 필수 |
-| Reflow vs Repaint 차이                                    | ✅ 중요  |
-| DOMContentLoaded vs load 이벤트 차이                      | 🔍 참고  |
-| 렌더링 차단 리소스 예시                                   | 🔍 참고  |
-| JS 실행 중 DOM 업데이트는 언제 적용되나요?                | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                      |  중요도  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [브라우저 정의 & 구성요소](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%95%EC%9D%98--%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C)                                                                                                                                                                             | ✅ 중요  |
+| [웹 브라우저에서 사이트를 렌더링 하는 과정이 어떻게 되나요](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%B8%EC%97%90%EC%84%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EB%A0%8C%EB%8D%94%EB%A7%81-%ED%95%98%EB%8A%94-%EA%B3%BC%EC%A0%95%EC%9D%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98%EC%9A%94) | ⭐️ 필수 |
+| [렌더링 엔진은 멀티스레드로 동작하는가?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%97%94%EC%A7%84%EC%9D%80-%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EA%B0%80)                                                                                                | 🔍 참고  |
+| [JavaScript가 Layout에 어떤 영향을 미치나?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#javascript%EA%B0%80-layout%EC%97%90-%EC%96%B4%EB%96%A4-%EC%98%81%ED%96%A5%EC%9D%84-%EB%AF%B8%EC%B9%98%EB%82%98)                                                                                                                                           | ✅ 중요  |
+| [DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#dom)                                                                                                                                                                                                                                                                                            | ⭐️ 필수 |
+| [Reflow vs Repaint 차이](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#reflow-vs-repaint-%EC%B0%A8%EC%9D%B4)                                                                                                                                                                                                                                        | ✅ 중요  |
+| DOMContentLoaded vs load 이벤트 차이                                                                                                                                                                                                                                                                                                                                                      | 🔍 참고  |
+| 렌더링 차단 리소스 예시                                                                                                                                                                                                                                                                                                                                                                   | 🔍 참고  |
+| [JS 실행 중 DOM 업데이트는 언제 적용되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering#js-%EC%8B%A4%ED%96%89-%EC%A4%91-dom-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%A0%81%EC%9A%A9%EB%90%98%EB%82%98%EC%9A%94)                                                                                                      | 🔍 참고  |
 
 ### 브라우저 저장소
 
