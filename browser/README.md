@@ -30,6 +30,7 @@
 | 쿠키(Cookie)와 세션(Session)의 차이는 무엇인가요? | ⭐️ 필수 |
 | 쿠키, localStorage, sessionStorage의 차이         | ⭐️ 필수 |
 | localStorage에 JWT 토큰을 저장해도 괜찮을까요?    | ⭐️ 필수 |
+| HTTP-only 쿠키란?                                 | ✅ 중요  |
 | 브라우저 저장소는 언제 어떤 걸 써야 하나요?       | ✅ 중요  |
 | 브라우저가 쿠키를 어떻게 전송하나요?              | ✅ 중요  |
 | XSS (Cross-Site Scripting) 공격                   | ⭐️ 필수 |
