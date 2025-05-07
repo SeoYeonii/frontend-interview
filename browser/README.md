@@ -19,8 +19,8 @@
 | JavaScript가 Layout에 어떤 영향을 미치나?                 | ✅ 중요  |
 | DOM                                                       | ⭐️ 필수 |
 | Reflow vs Repaint 차이                                    | ✅ 중요  |
-| DOMContentLoaded vs load 이벤트 차이                      | ✅ 중요  |
-| 렌더링 차단 리소스 예시                                   | ✅ 중요  |
+| DOMContentLoaded vs load 이벤트 차이                      | 🔍 참고  |
+| 렌더링 차단 리소스 예시                                   | 🔍 참고  |
 | JS 실행 중 DOM 업데이트는 언제 적용되나요?                | 🔍 참고  |
 
 ### 브라우저 저장소
