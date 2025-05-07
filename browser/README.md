@@ -4,8 +4,8 @@
 - [브라우저 저장소](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage)
 - [최적화](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/performance-optimization)
 - [CORS](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/cors)
-- Web Server / WAS
-- 크로스브라우징
+- [Web Server / WAS](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was)
+- [크로스브라우징](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/cross-browser)
 
 ## 질문지
 
@@ -70,20 +70,20 @@
 
 ### Web Server / WAS
 
-| 질문                                            |  중요도  |
-| :---------------------------------------------- | :------: |
-| Web Server VS WAS                               | ⭐️ 필수 |
-| 웹서버와 WAS를 분리한 이유는?                   | ✅ 중요  |
-| Static pages vs Dynamic Pages                   | ✅ 중요  |
-| WAS가 웹 서버 역할까지 다 하지 않는 이유?       | ✅ 중요  |
-| Nginx와 Express의 역할 차이                     | ⭐️ 필수 |
-| 정적 파일은 어디에서 서빙하는 게 좋은가요?      | ✅ 중요  |
-| WAS 과부하를 줄이기 위한 방법은?                | ✅ 중요  |
-| React 앱 배포 시 웹 서버와 WAS 역할             | ✅ 중요  |
-| 웹 서버 없이 WAS만 사용할 수 있나요?            | 🔍 참고  |
-| Reverse Proxy란?                                | ⭐️ 필수 |
-| React 앱에서 Nginx의 역할은?                    | ✅ 중요  |
-| nginx.conf에서 정적 파일 라우팅 방식 설명 가능? | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                                       |  중요도  |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [Web Server VS WAS](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#web-server-vs-was)                                                                                                                                                                                    | ⭐️ 필수 |
+| [웹서버와 WAS를 분리한 이유는?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#%EC%9B%B9%EC%84%9C%EB%B2%84%EC%99%80-%EC%9B%B9%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B2%84%EB%A5%BC-%EB%B6%84%EB%A6%AC%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%8A%94) | ✅ 중요  |
+| [Static pages vs Dynamic Pages](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#static-pages-vs-dynamic-pages)                                                                                                                                                            | ✅ 중요  |
+| [WAS가 웹 서버 역할까지 다 하지 않는 이유?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#was-%EA%B0%80-%EC%9B%B9-%EC%84%9C%EB%B2%84-%EC%97%AD%ED%95%A0%EA%B9%8C%EC%A7%80-%EB%8B%A4-%EC%B2%98%EB%A6%AC%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0)         | ✅ 중요  |
+| [Nginx와 Express의 역할 차이](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#nginx%EC%99%80-express%EC%9D%98-%EC%97%AD%ED%95%A0-%EC%B0%A8%EC%9D%B4)                                                                                                                      | ⭐️ 필수 |
+| [정적 파일은 어디에서 서빙하는 게 좋은가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#nginx%EC%99%80-express%EC%9D%98-%EC%97%AD%ED%95%A0-%EC%B0%A8%EC%9D%B4)                                                                                                       | ✅ 중요  |
+| [WAS 과부하를 줄이기 위한 방법은?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#was-%EA%B3%BC%EB%B6%80%ED%95%98%EB%A5%BC-%EC%A4%84%EC%9D%B4%EA%B8%B0-%EC%9C%84%ED%95%9C-%EB%B0%A9%EB%B2%95%EC%9D%80)                                                                   | ✅ 중요  |
+| [React 앱 배포 시 웹 서버와 WAS 역할](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#react-%EC%95%B1%EC%9D%84-%EB%B0%B0%ED%8F%AC%ED%95%A0-%EB%95%8C-%EC%9B%B9-%EC%84%9C%EB%B2%84%EC%99%80-was%EC%9D%98-%EC%97%AD%ED%95%A0%EC%9D%80)                                      | ✅ 중요  |
+| [웹 서버 없이 WAS만 사용할 수 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#%EC%9B%B9-%EC%84%9C%EB%B2%84-%EC%97%86%EC%9D%B4-was%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)                                                    | 🔍 참고  |
+| [Reverse Proxy란?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was#reverse-proxy%EB%9E%80)                                                                                                                                                                                | ⭐️ 필수 |
+| React 앱에서 Nginx의 역할은?                                                                                                                                                                                                                                                                               | ✅ 중요  |
+| nginx.conf에서 정적 파일 라우팅 방식 설명 가능?                                                                                                                                                                                                                                                            | 🔍 참고  |
 
 ### 크로스브라우징
 
