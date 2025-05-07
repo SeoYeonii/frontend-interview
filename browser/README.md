@@ -1,7 +1,7 @@
 ## 카테고리
 
-- 브라우저 구조 및 렌더링 엔진
-- 브라우저 저장소
+- [브라우저 구조 및 렌더링 엔진](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering)
+- [브라우저 저장소](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage)
 - 최적화
 - CORS
 - Web Server / WAS
@@ -25,22 +25,22 @@
 
 ### 브라우저 저장소
 
-| 질문                                              |  중요도  |
-| :------------------------------------------------ | :------: |
-| 쿠키(Cookie)와 세션(Session)의 차이는 무엇인가요? | ⭐️ 필수 |
-| 쿠키, localStorage, sessionStorage의 차이         | ⭐️ 필수 |
-| localStorage에 JWT 토큰을 저장해도 괜찮을까요?    | ⭐️ 필수 |
-| HTTP-only 쿠키란?                                 | ✅ 중요  |
-| 브라우저 저장소는 언제 어떤 걸 써야 하나요?       | ✅ 중요  |
-| 브라우저가 쿠키를 어떻게 전송하나요?              | ✅ 중요  |
-| XSS (Cross-Site Scripting) 공격                   | ⭐️ 필수 |
-| CSRF (Cross-Site Request Forgery)                 | ⭐️ 필수 |
-| XSS vs CSRF                                       | ✅ 중요  |
-| SSR + 로그인 인증 시 토큰 어디에 저장하세요?      | ⭐️ 필수 |
-| SameSite 쿠키 속성에 대해 설명해주세요            | ✅ 중요  |
-| Secure, HttpOnly 쿠키 속성은 왜 필요한가요?       | ✅ 중요  |
-| 쿠키에 저장 가능한 용량은 얼마나 되나요?          | 🔍 참고  |
-| localStorage는 브라우저 간 공유되나요?            | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                                      |  중요도  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [쿠키(Cookie)와 세션(Session)의 차이는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#%EC%BF%A0%ED%82%A4cookie%EC%99%80-%EC%84%B8%EC%85%98session%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                     | ⭐️ 필수 |
+| [쿠키, localStorage, sessionStorage의 차이](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#%EC%BF%A0%ED%82%A4-localstorage-sessionstorage%EC%9D%98-%EC%B0%A8%EC%9D%B4)                                                                                                 | ⭐️ 필수 |
+| [localStorage에 JWT 토큰을 저장해도 괜찮을까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#localstorage%EC%97%90-jwt-%ED%86%A0%ED%81%B0%EC%9D%84-%EC%A0%80%EC%9E%A5%ED%95%B4%EB%8F%84-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C%EC%9A%94)                              | ⭐️ 필수 |
+| [HTTP-only 쿠키란?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#http-only-%EC%BF%A0%ED%82%A4%EB%9E%80)                                                                                                                                                              | ✅ 중요  |
+| [브라우저 저장소는 언제 어떤 걸 써야 하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%80%EC%9E%A5%EC%86%8C%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%96%B4%EB%96%A4-%EA%B1%B8-%EC%8D%A8%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94) | ✅ 중요  |
+| [브라우저가 쿠키를 어떻게 전송하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EA%B0%80-%EC%BF%A0%ED%82%A4%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%84%EC%86%A1%ED%95%98%EB%82%98%EC%9A%94)                             | ✅ 중요  |
+| [XSS (Cross-Site Scripting) 공격](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#xss-cross-site-scripting-%EA%B3%B5%EA%B2%A9)                                                                                                                                          | ⭐️ 필수 |
+| [CSRF (Cross-Site Request Forgery)](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#csrf-cross-site-request-forgery)                                                                                                                                                    | ⭐️ 필수 |
+| [XSS vs CSRF](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#xss-vs-csrf)                                                                                                                                                                                              | ✅ 중요  |
+| [SSR + 로그인 인증 시 토큰 어디에 저장하세요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#xss-vs-csrf)                                                                                                                                                             | ⭐️ 필수 |
+| [SameSite 쿠키 속성에 대해 설명해주세요](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#samesite-%EC%BF%A0%ED%82%A4-%EC%86%8D%EC%84%B1%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)                                             | ✅ 중요  |
+| [Secure, HttpOnly 쿠키 속성은 왜 필요한가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#secure-httponly-%EC%BF%A0%ED%82%A4-%EC%86%8D%EC%84%B1%EC%9D%80-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94)                                                   | ✅ 중요  |
+| [쿠키에 저장 가능한 용량은 얼마나 되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#%EC%BF%A0%ED%82%A4%EC%97%90-%EC%A0%80%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%9A%A9%EB%9F%89%EC%9D%80-%EC%96%BC%EB%A7%88%EB%82%98-%EB%90%98%EB%82%98%EC%9A%94)              | 🔍 참고  |
+| [localStorage는 브라우저 간 공유되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage#localstorage%EB%8A%94-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B0%84-%EA%B3%B5%EC%9C%A0%EB%90%98%EB%82%98%EC%9A%94)                                                            | 🔍 참고  |
 
 ### 최적화
 
