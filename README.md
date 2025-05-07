@@ -15,7 +15,7 @@
   - [브라우저 구조 및 렌더링 엔진](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-rendering)
   - [브라우저 저장소](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/browser-storage)
   - [최적화](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/performance-optimization)
-  - CORS
+  - [CORS](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/cors)
   - Web Server / WAS
   - 크로스브라우징
 - [JavaScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript)
