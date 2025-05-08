@@ -19,7 +19,7 @@
   - [Web Server / WAS](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/web-server-was)
   - [크로스브라우징](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/cross-browser)
 - [JavaScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript)
-  - JavaScript 기본 개념
+  - [JavaScript 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/javascript-basics)
   - 실행 컨텍스트 / 스코프 / 클로저
   - 객체 & 프로토타입 & 클래스
   - 함수와 this
