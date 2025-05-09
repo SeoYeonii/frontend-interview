@@ -20,7 +20,7 @@
   - [크로스브라우징](https://github.com/SeoYeonii/frontend-interview/tree/main/browser/cross-browser)
 - [JavaScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript)
   - [JavaScript 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/javascript-basics)
-  - 실행 컨텍스트 / 스코프 / 클로저
+  - [실행 컨텍스트 / 스코프 / 클로저](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/context-scope-closure)
   - 객체 & 프로토타입 & 클래스
   - 함수와 this
   - 이벤트 & DOM
