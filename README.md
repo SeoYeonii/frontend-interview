@@ -25,7 +25,7 @@
   - [함수와 this](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/function-this)
   - [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
   - [비동기 & 동시성](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/sync-async)
-  - ECMAScript
+  - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
   - 가비지컬랙터
   - 함수형 프로그래밍
   - 프로젝트

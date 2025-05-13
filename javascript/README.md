@@ -6,7 +6,7 @@
 - [함수와 this](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/function-this)
 - [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
 - [비동기 & 동시성](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/sync-async)
-- ECMAScript
+- [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
 - 가비지컬랙터
 - 함수형 프로그래밍
 - 프로젝트
@@ -164,16 +164,16 @@
 
 ### ECMAScript
 
-| 질문                                                                       |  중요도  |
-| :------------------------------------------------------------------------- | :------: |
-| ECMA Script                                                                | 🔍 참고  |
-| ES3 vs ES5                                                                 | 🔍 참고  |
-| JavaScript로 컴파일되는 언어(TypeScript, Elm 등)를 사용하는 것의 장단점은? | ✅ 중요  |
-| 객체나 배열 구조 분해 할당(Destructuring)의 예시를 들어주세요.             | ✅ 중요  |
-| 템플릿 리터럴(Template Literal)로 문자열을 생성하는 예를 보여주세요.       | ✅ 중요  |
-| 전개 연산자(spread)와 나머지 인자(rest)의 차이와 장점은?                   | ⭐️ 필수 |
-| 옵셔널 체이닝, 널 병합 연산자 사용법 설명                                  | ⭐️ 필수 |
-| `'use strict'` (strict mode)는 무엇이며, 장단점은 무엇인가요?              | ✅ 중요  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                             |  중요도  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [ECMA Script](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#ecma-script)                                                                                                                                                                                                                                                                       | 🔍 참고  |
+| [ES3 vs ES5](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#es3-vs-es5)                                                                                                                                                                                                                                                                         | 🔍 참고  |
+| [JavaScript로 컴파일되는 언어(TypeScript, Elm 등)를 사용하는 것의 장단점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#javascript%EB%A1%9C-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%90%98%EB%8A%94-%EC%96%B8%EC%96%B4typescript-elm-%EB%93%B1%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80) | ✅ 중요  |
+| [객체나 배열 구조 분해 할당(Destructuring)의 예시를 들어주세요.](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#%EA%B0%9D%EC%B2%B4%EB%82%98-%EB%B0%B0%EC%97%B4-%EA%B5%AC%EC%A1%B0-%EB%B6%84%ED%95%B4-%ED%95%A0%EB%8B%B9destructuring%EC%9D%98-%EC%98%88%EC%8B%9C%EB%A5%BC-%EB%93%A4%EC%96%B4%EC%A3%BC%EC%84%B8%EC%9A%94)                        | ✅ 중요  |
+| 템플릿 리터럴(Template Literal)로 문자열을 생성하는 예를 보여주세요.                                                                                                                                                                                                                                                                                                             | ✅ 중요  |
+| [전개 연산자(spread)와 나머지 인자(rest)의 차이와 장점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#%EC%A0%84%EA%B0%9C-%EC%97%B0%EC%82%B0%EC%9E%90spread%EC%99%80-%EB%82%98%EB%A8%B8%EC%A7%80-%EC%9D%B8%EC%9E%90rest%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%99%80-%EC%9E%A5%EC%A0%90%EC%9D%80)                                                    | ⭐️ 필수 |
+| [옵셔널 체이닝, 널 병합 연산자 사용법 설명](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#%EC%98%B5%EC%85%94%EB%84%90-%EC%B2%B4%EC%9D%B4%EB%8B%9D-%EB%84%90-%EB%B3%91%ED%95%A9-%EC%97%B0%EC%82%B0%EC%9E%90-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%84%A4%EB%AA%85)                                                                                     | ⭐️ 필수 |
+| [`'use strict'` (strict mode)는 무엇이며, 장단점은 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript#use-strict-strict-mode%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                         | ✅ 중요  |
 
 ### 가비지컬랙터
 
