@@ -9,7 +9,7 @@
 - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
 - 가비지컬랙터
 - 함수형 프로그래밍
-- 타입스크립트
+- [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
 - 프로젝트
 
 ## 질문지
@@ -208,27 +208,27 @@
 
 ### 타입스크립트
 
-|                            질문                            | 중요도   |
-| :--------------------------------------------------------: | :------- |
-|               any, unknown, never의 차이는?                | ⭐️ 필수 |
-|      타입 단언(as)과 타입 가드(type guard)의 차이는?       | ⭐️ 필수 |
-|   유니온(Union)과 인터섹션(Intersection) 타입의 차이는?    | ⭐️ 필수 |
-|       타입 추론(Type Inference)은 어떻게 동작하나요?       | ⭐️ 필수 |
-|                interface vs type의 차이는?                 | ⭐️ 필수 |
-|        옵셔널 체이닝(?.)과 Nullish 병합(??) 차이는?        | ⭐️ 필수 |
-|           제네릭(Generic)의 활용 예시와 장점은?            | ⭐️ 필수 |
-|       keyof, in, typeof, as const는 언제 사용하나요?       | ⭐️ 필수 |
-|   Partial, Required, Pick, Omit 유틸리티 타입의 용도는?    | ✅ 중요  |
-|           extends 키워드는 어떤 용도로 쓰이나요?           | ✅ 중요  |
-|               keyof T는 어떤 값을 가질까요?                | ✅ 중요  |
-|           제네릭을 사용한 컴포넌트나 훅의 예시?            | ✅ 중요  |
-|        함수 오버로드(Overloading)는 어떻게 하나요?         | ✅ 중요  |
-|                enum과 const enum 차이점은?                 | ✅ 중요  |
-|         타입이 복잡할 때 어떤 전략으로 관리하나요?         | 🔍 참고  |
-| third-party 라이브러리에 타입이 없을 때 어떻게 대처하나요? | 🔍 참고  |
-|        비동기 함수의 반환 타입은 어떻게 지정하나요?        | 🔍 참고  |
-|          tsconfig.json에서 자주 설정하는 옵션은?           | 🔍 참고  |
-|     타입 오류가 있을 때 주로 어떤 식으로 디버깅하나요?     | 🔍 참고  |
+|                                                                                                                                                                        질문                                                                                                                                                                         | 중요도   |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------- |
+|                                                                                       [any, unknown, never의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#any-unknown-never%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                       | ⭐️ 필수 |
+|                                      [타입 단언(as)과 타입 가드(type guard)의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%ED%83%80%EC%9E%85-%EB%8B%A8%EC%96%B8as%EA%B3%BC-%ED%83%80%EC%9E%85-%EA%B0%80%EB%93%9Ctype-guard%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                       | ⭐️ 필수 |
+|                             [유니온(Union)과 인터섹션(Intersection) 타입의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%EC%9C%A0%EB%8B%88%EC%98%A8union%EA%B3%BC-%EC%9D%B8%ED%84%B0%EC%84%B9%EC%85%98intersection-%ED%83%80%EC%9E%85%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                             | ⭐️ 필수 |
+|                                      [타입 추론(Type Inference)은 어떻게 동작하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%ED%83%80%EC%9E%85-%EC%B6%94%EB%A1%A0type-inference%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98%EC%9A%94)                                       | ⭐️ 필수 |
+|                                                                                        [interface vs type의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#interface-vs-type%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                        | ⭐️ 필수 |
+|                                               옵셔널 [체이닝(?.)과 Nullish 병합(??) 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%EC%98%B5%EC%85%94%EB%84%90-%EC%B2%B4%EC%9D%B4%EB%8B%9D%EA%B3%BC-nullish-%EB%B3%91%ED%95%A9-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                               | ⭐️ 필수 |
+|                                                   [제네릭(Generic)의 활용 예시와 장점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%EC%A0%9C%EB%84%A4%EB%A6%ADgeneric%EC%9D%98-%ED%99%9C%EC%9A%A9-%EC%98%88%EC%8B%9C%EC%99%80-%EC%9E%A5%EC%A0%90%EC%9D%80)                                                   | ⭐️ 필수 |
+|                                                        [keyof, in, typeof, as const는 언제 사용하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#keyof-in-typeof-as-const%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)                                                         | ⭐️ 필수 |
+|                                          [ Partial, Required, Pick, Omit 유틸리티 타입의](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#partial-required-pick-omit-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-%ED%83%80%EC%9E%85%EC%9D%98-%EC%9A%A9%EB%8F%84%EB%8A%94) 용도는?                                          | ✅ 중요  |
+|                                             [extends 키워드는 어떤 용도로 쓰이나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#extends-%ED%82%A4%EC%9B%8C%EB%93%9C%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%9A%A9%EB%8F%84%EB%A1%9C-%EC%93%B0%EC%9D%B4%EB%82%98%EC%9A%94)                                              | ✅ 중요  |
+|                                                                    [keyof T는 어떤 값을 가질까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#keyof-t%EB%8A%94-%EC%96%B4%EB%96%A4-%EA%B0%92%EC%9D%84-%EA%B0%80%EC%A7%88%EA%B9%8C%EC%9A%94)                                                                     | ✅ 중요  |
+|                                    [제네릭을 사용한 컴포넌트나 훅의 예시?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%EC%A0%9C%EB%84%A4%EB%A6%AD%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%82%98-%ED%9B%85%EC%9D%98-%EC%98%88%EC%8B%9C)                                    | ✅ 중요  |
+|                                         함수 [오버로드(Overloading)는 어떻게 하나요? ](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%ED%95%A8%EC%88%98-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%93%9Coverloading%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%98%EB%82%98%EC%9A%94)                                         | ✅ 중요  |
+|                                                                                    [enum과 const enum 차이점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#enum%EA%B3%BC-const-enum-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80)                                                                                     | ✅ 중요  |
+|                       [타입이 복잡할 때 어떤 전략으로 관리하나요? ](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%ED%83%80%EC%9E%85%EC%9D%B4-%EB%B3%B5%EC%9E%A1%ED%95%A0-%EB%95%8C-%EC%96%B4%EB%96%A4-%EC%A0%84%EB%9E%B5%EC%9C%BC%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%98%EB%82%98%EC%9A%94)                        | 🔍 참고  |
+| [third-party 라이브러리에 타입이 없을 때 어떻게 대처하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#third-party-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EC%97%90-%ED%83%80%EC%9E%85%EC%9D%B4-%EC%97%86%EC%9D%84-%EB%95%8C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8C%80%EC%B2%98%ED%95%98%EB%82%98%EC%9A%94) | 🔍 참고  |
+|                  비동기 [함수의 반환 타입은 어떻게 지정하나요? ](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%95%A8%EC%88%98%EC%9D%98-%EB%B0%98%ED%99%98-%ED%83%80%EC%9E%85%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%80%EC%A0%95%ED%95%98%EB%82%98%EC%9A%94)                  | 🔍 참고  |
+|                                                   [tsconfig.json에서 자주 설정하는 옵션은? ](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#tsconfigjson%EC%97%90%EC%84%9C-%EC%9E%90%EC%A3%BC-%EC%84%A4%EC%A0%95%ED%95%98%EB%8A%94-%EC%98%B5%EC%85%98%EC%9D%80)                                                    | 🔍 참고  |
+|     [타입 오류가 있을 때 주로 어떤 식으로 디버깅하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript#%ED%83%80%EC%9E%85-%EC%98%A4%EB%A5%98%EA%B0%80-%EC%9E%88%EC%9D%84-%EB%95%8C-%EC%A3%BC%EB%A1%9C-%EC%96%B4%EB%96%A4-%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%98%EB%82%98%EC%9A%94)      | 🔍 참고  |
 
 ### 프로젝트
 

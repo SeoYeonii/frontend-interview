@@ -28,7 +28,7 @@
   - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
   - 가비지컬랙터
   - 함수형 프로그래밍
-  - 타입스크립트
+  - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
   - 프로젝트
 - [React](https://github.com/SeoYeonii/frontend-interview/tree/main/react)
   - React 기본 개념
