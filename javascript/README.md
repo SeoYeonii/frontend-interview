@@ -9,6 +9,7 @@
 - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
 - 가비지컬랙터
 - 함수형 프로그래밍
+- 타입스크립트
 - 프로젝트
 
 ## 질문지
@@ -204,6 +205,30 @@
 | 코드에서 불변성을 어떻게 구현하나요?                                        | ✅ 중요  |
 | Compose, Pipe는 무엇인가요?                                                 | 🔍 참고  |
 | Ramda, Lodash 등 함수형 라이브러리 써본 경험 있나요?                        | 🔍 참고  |
+
+### 타입스크립트
+
+|                            질문                            | 중요도   |
+| :--------------------------------------------------------: | :------- |
+|               any, unknown, never의 차이는?                | ⭐️ 필수 |
+|      타입 단언(as)과 타입 가드(type guard)의 차이는?       | ⭐️ 필수 |
+|   유니온(Union)과 인터섹션(Intersection) 타입의 차이는?    | ⭐️ 필수 |
+|       타입 추론(Type Inference)은 어떻게 동작하나요?       | ⭐️ 필수 |
+|                interface vs type의 차이는?                 | ⭐️ 필수 |
+|        옵셔널 체이닝(?.)과 Nullish 병합(??) 차이는?        | ⭐️ 필수 |
+|           제네릭(Generic)의 활용 예시와 장점은?            | ⭐️ 필수 |
+|       keyof, in, typeof, as const는 언제 사용하나요?       | ⭐️ 필수 |
+|   Partial, Required, Pick, Omit 유틸리티 타입의 용도는?    | ✅ 중요  |
+|           extends 키워드는 어떤 용도로 쓰이나요?           | ✅ 중요  |
+|               keyof T는 어떤 값을 가질까요?                | ✅ 중요  |
+|           제네릭을 사용한 컴포넌트나 훅의 예시?            | ✅ 중요  |
+|        함수 오버로드(Overloading)는 어떻게 하나요?         | ✅ 중요  |
+|                enum과 const enum 차이점은?                 | ✅ 중요  |
+|         타입이 복잡할 때 어떤 전략으로 관리하나요?         | 🔍 참고  |
+| third-party 라이브러리에 타입이 없을 때 어떻게 대처하나요? | 🔍 참고  |
+|        비동기 함수의 반환 타입은 어떻게 지정하나요?        | 🔍 참고  |
+|          tsconfig.json에서 자주 설정하는 옵션은?           | 🔍 참고  |
+|     타입 오류가 있을 때 주로 어떤 식으로 디버깅하나요?     | 🔍 참고  |
 
 ### 프로젝트
 
