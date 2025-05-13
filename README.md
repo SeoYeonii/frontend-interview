@@ -23,7 +23,7 @@
   - [실행 컨텍스트 / 스코프 / 클로저](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/context-scope-closure)
   - [객체 & 프로토타입 & 클래스](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class)
   - [함수와 this](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/function-this)
-  - 이벤트 & DOM
+  - [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
   - 비동기 & 동시성
   - ECMAScript
   - 가비지컬랙터

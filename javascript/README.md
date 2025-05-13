@@ -4,7 +4,7 @@
 - [실행 컨텍스트 / 스코프 / 클로저](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/context-scope-closure)
 - [객체 & 프로토타입 & 클래스](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class)
 - [함수와 this](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/function-this)
-- 이벤트 & DOM
+- [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
 - 비동기 & 동시성
 - ECMAScript
 - 가비지컬랙터
@@ -123,19 +123,19 @@
 
 ### 이벤트 & DOM
 
-| 질문                                                           |  중요도  |
-| :------------------------------------------------------------- | :------: |
-| 이벤트 위임(Event Delegation)이란 무엇인가요?                  | ✅ 중요  |
-| 이벤트 버블링(Event Bubbling)이란?                             | ⭐️ 필수 |
-| 이벤트 캡처링(Event Capturing)이란?                            | ✅ 중요  |
-| 실제 브라우저가 이벤트를 감지하는 방법                         | ✅ 중요  |
-| 캡쳐링 단계에서 이벤트를 감지하는 방법                         | ✅ 중요  |
-| 버블링/캡쳐링을 중단하는 방법                                  | ✅ 중요  |
-| HTML 속성(attribute)과 DOM 속성(property)의 차이는?            | ✅ 중요  |
-| `event.target`과 `event.currentTarget`의 차이는?               | ⭐️ 필수 |
-| `event.preventDefault()`와 `event.stopPropagation()`의 차이는? | ⭐️ 필수 |
-| 이벤트 위임은 언제 유리한가요?                                 | ✅ 중요  |
-| addEventListener의 third 인자 options는 어떤 옵션이 있나요?    | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                         |  중요도  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [이벤트 위임(Event Delegation)이란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9C%84%EC%9E%84event-delegation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                               | ✅ 중요  |
+| [이벤트 버블링(Event Bubbling)이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81event-bubbling%EC%9D%B4%EB%9E%80)                                                                                 | ⭐️ 필수 |
+| [이벤트 캡처링(Event Capturing)이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%BA%A1%EC%B2%98%EB%A7%81event-capturing%EC%9D%B4%EB%9E%80)                                                                               | ✅ 중요  |
+| [실제 브라우저가 이벤트를 감지하는 방법](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%8B%A4%EC%A0%9C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EA%B0%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A5%BC-%EA%B0%90%EC%A7%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)       | ✅ 중요  |
+| [캡쳐링 단계에서 이벤트를 감지하는 방법](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%BA%A1%EC%B3%90%EB%A7%81-%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A5%BC-%EA%B0%90%EC%A7%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)       | ✅ 중요  |
+| [버블링/캡쳐링을 중단하는 방법](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EB%B2%84%EB%B8%94%EB%A7%81%EC%BA%A1%EC%B3%90%EB%A7%81%EC%9D%84-%EC%A4%91%EB%8B%A8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)                                                      | ✅ 중요  |
+| [HTML 속성(attribute)과 DOM 속성(property)의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#html-%EC%86%8D%EC%84%B1attribute%EA%B3%BC-dom-%EC%86%8D%EC%84%B1property%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                          | ✅ 중요  |
+| [`event.target`과 `event.currentTarget`의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#eventtarget%EA%B3%BC-eventcurrenttarget%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                              | ⭐️ 필수 |
+| [`event.preventDefault()`와 `event.stopPropagation()`의 차이는? ](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#eventpreventdefault%EC%99%80-eventstoppropagation%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                     | ⭐️ 필수 |
+| [이벤트 위임은 언제 유리한가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9C%84%EC%9E%84%EC%9D%80-%EC%96%B8%EC%A0%9C-%EC%9C%A0%EB%A6%AC%ED%95%9C%EA%B0%80%EC%9A%94)                                                    | ✅ 중요  |
+| [addEventListener의 third 인자 options는 어떤 옵션이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom#addeventlistener%EC%9D%98-third-%EC%9D%B8%EC%9E%90-options%EB%8A%94-%EC%96%B4%EB%96%A4-%EC%98%B5%EC%85%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94) | 🔍 참고  |
 
 ### 비동기 & 동시성
 
