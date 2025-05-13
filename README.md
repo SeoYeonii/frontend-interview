@@ -26,7 +26,7 @@
   - [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
   - [비동기 & 동시성](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/sync-async)
   - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
-  - 가비지컬랙터
+  - [가비지컬랙터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector)
   - 함수형 프로그래밍
   - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
   - 프로젝트

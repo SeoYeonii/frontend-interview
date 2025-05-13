@@ -7,7 +7,7 @@
 - [이벤트 & DOM](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/event-dom)
 - [비동기 & 동시성](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/sync-async)
 - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
-- 가비지컬랙터
+- [가비지컬랙터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector)
 - 함수형 프로그래밍
 - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
 - 프로젝트
@@ -178,16 +178,16 @@
 
 ### 가비지컬랙터
 
-| 질문                                                              |  중요도  |
-| :---------------------------------------------------------------- | :------: |
-| 자바스크립트 가비지컬렉터                                         | ⭐️ 필수 |
-| 가비지 컬렉터의 역할은? 어떻게 작동하는가?                        | ⭐️ 필수 |
-| GC가 발생했는지 어떻게 알 수 있나요?                              | 🔍 참고  |
-| JS 메모리 누수 원인 4가지                                         | ✅ 중요  |
-| 클로저와 메모리 누수 관계 설명                                    | ✅ 중요  |
-| 클로저를 사용하는 상황에서 메모리 누수를 어떻게 방지할 수 있나요? | ✅ 중요  |
-| 브라우저에서의 메모리 최적화 방법은?                              | ✅ 중요  |
-| WeakMap, WeakSet은 왜 사용하나요?                                 | ✅ 중요  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                                                             |  중요도  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [자바스크립트 가비지컬렉터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%ED%84%B0)                                                                                                                                                                                                | ⭐️ 필수 |
+| [가비지 컬렉터의 역할은? 어떻게 작동하는가?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%ED%84%B0%EC%9D%98-%EC%97%AD%ED%95%A0%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80)                                                                                                                      | ⭐️ 필수 |
+| [GC가 발생했는지 어떻게 알 수 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#gc%EA%B0%80-%EB%B0%9C%EC%83%9D%ED%96%88%EB%8A%94%EC%A7%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%95%8C-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                                                                             | 🔍 참고  |
+| [JS 메모리 누수 원인 4가지](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#js-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98-%EC%9B%90%EC%9D%B8-4%EA%B0%80%EC%A7%80)                                                                                                                                                                                                                     | ✅ 중요  |
+| [클로저와 메모리 누수 관계 설명](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#%ED%81%B4%EB%A1%9C%EC%A0%80%EC%99%80-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98-%EA%B4%80%EA%B3%84-%EC%84%A4%EB%AA%85)                                                                                                                                                                               | ✅ 중요  |
+| [클로저를 사용하는 상황에서 메모리 누수를 어떻게 방지할 수 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#%ED%81%B4%EB%A1%9C%EC%A0%80%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%B0%A9%EC%A7%80%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94) | ✅ 중요  |
+| [브라우저에서의 메모리 최적화 방법은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%B5%9C%EC%A0%81%ED%99%94-%EB%B0%A9%EB%B2%95%EC%9D%80)                                                                                                                                               | ✅ 중요  |
+| [WeakMap, WeakSet은 왜 사용하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector#weakmap-weakset%EC%9D%80-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)                                                                                                                                                                                                                     | ✅ 중요  |
 
 ### 함수형 프로그래밍
 
