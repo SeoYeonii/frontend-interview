@@ -2,7 +2,7 @@
 
 - [JavaScript 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/javascript-basics)
 - [실행 컨텍스트 / 스코프 / 클로저](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/context-scope-closure)
-- 객체 & 프로토타입 & 클래스
+- [객체 & 프로토타입 & 클래스](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class)
 - 함수와 this
 - 이벤트 & DOM
 - 비동기 & 동시성
@@ -68,22 +68,22 @@
 
 ### 객체 & 프로토타입 & 클래스
 
-| 질문                                                                           |  중요도  |
-| :----------------------------------------------------------------------------- | :------: |
-| 프로토타입이란?                                                                | ⭐️ 필수 |
-| 프로토타입 체이닝이란?                                                         | ⭐️ 필수 |
-| 프로토타입의 상속이란?                                                         | ✅ 중요  |
-| Object의 프로토타입은?                                                         | ✅ 중요  |
-| Class의 최상단 프로토 타입은 무엇인가?                                         | 🔍 참고  |
-| JavaScript의 프로토타입 기반 상속(prototypal inheritance)은 어떻게 동작하나요? | ⭐️ 필수 |
-| 호스트 객체(Host Object)와 네이티브 객체(Native Object)의 차이는 무엇인가요?   | ✅ 중요  |
-| 내장 객체(Built-in Object)를 확장하는 것의 장단점은 무엇인가요?                | ✅ 중요  |
-| 클래스 vs 함수 생성자                                                          | ⭐️ 필수 |
-| 생성자 함수와 new 키워드                                                       | ✅ 중요  |
-| 정적(static) 클래스 멤버를 정의하는 이유는 무엇인가요?                         | ✅ 중요  |
-| 싱글톤 패턴이란?                                                               | ✅ 중요  |
-| Object.create(), Object.assign() 차이                                          | 🔍 참고  |
-| ES6 클래스와 ES5 함수 생성자의 차이는 무엇인가요?                              | ✅ 중요  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                                   |  중요도  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [프로토타입이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%B4%EB%9E%80)                                                                                                                                                                                                                         | ⭐️ 필수 |
+| [프로토타입 체이닝이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%B2%B4%EC%9D%B4%EB%8B%9D%EC%9D%B4%EB%9E%80)                                                                                                                                                                                      | ⭐️ 필수 |
+| [프로토타입의 상속이란?(https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%98-%EC%83%81%EC%86%8D%EC%9D%B4%EB%9E%80)]                                                                                                                                                                                      | ✅ 중요  |
+| [Object의 프로토타입은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#object-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%80)                                                                                                                                                                                                                    | ✅ 중요  |
+| [Class의 최상단 프로토 타입은 무엇인가?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#class%EC%9D%98-%EC%B5%9C%EC%83%81%EB%8B%A8-%ED%94%84%EB%A1%9C%ED%86%A0-%ED%83%80%EC%9E%85%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)                                                                                                                          | 🔍 참고  |
+| [JavaScript의 프로토타입 기반 상속(prototypal inheritance)은 어떻게 동작하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#javascript%EC%9D%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B8%B0%EB%B0%98-%EC%83%81%EC%86%8Dprototypal-inheritance%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98%EC%9A%94)         | ⭐️ 필수 |
+| [호스트 객체(Host Object)와 네이티브 객체(Native Object)의 차이는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B0%9D%EC%B2%B4host-object%EC%99%80-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EA%B0%9D%EC%B2%B4native-object%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94) | ✅ 중요  |
+| [내장 객체(Built-in Object)를 확장하는 것의 장단점은 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%EB%82%B4%EC%9E%A5-%EA%B0%9D%EC%B2%B4built-in-object%EB%A5%BC-%ED%99%95%EC%9E%A5%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                | ✅ 중요  |
+| [클래스 vs 함수 생성자](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%ED%81%B4%EB%9E%98%EC%8A%A4-vs-%ED%95%A8%EC%88%98-%EC%83%9D%EC%84%B1%EC%9E%90)                                                                                                                                                                                                     | ⭐️ 필수 |
+| [생성자 함수와 new 키워드](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%EC%83%9D%EC%84%B1%EC%9E%90-%ED%95%A8%EC%88%98%EC%99%80-new-%ED%82%A4%EC%9B%8C%EB%93%9C)                                                                                                                                                                                        | ✅ 중요  |
+| [정적(static) 클래스 멤버를 정의하는 이유는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%EC%A0%95%EC%A0%81static-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A9%A4%EB%B2%84%EB%A5%BC-%EC%A0%95%EC%9D%98%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                  | ✅ 중요  |
+| [싱글톤 패턴이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80)                                                                                                                                                                                                                       | ✅ 중요  |
+| [Object.create(), Object.assign() 차이](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#objectcreate-objectassign-%EC%B0%A8%EC%9D%B4)                                                                                                                                                                                                                      | 🔍 참고  |
+| [ES6 클래스와 ES5 함수 생성자의 차이는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/object-prototype-class#es6-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-es5-%ED%95%A8%EC%88%98-%EC%83%9D%EC%84%B1%EC%9E%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                        | ✅ 중요  |
 
 ### 함수와 this
 
