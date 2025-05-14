@@ -8,7 +8,7 @@
 - [비동기 & 동시성](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/sync-async)
 - [ECMAScript](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/ecmascript)
 - [가비지컬랙터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector)
-- 함수형 프로그래밍
+- [함수형 프로그래밍](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming)
 - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
 - 프로젝트
 
@@ -191,20 +191,20 @@
 
 ### 함수형 프로그래밍
 
-| 질문                                                                        |  중요도  |
-| :-------------------------------------------------------------------------- | :------: |
-| 함수형 프로그래밍                                                           | ✅ 중요  |
-| 순수함수는 무엇인가요? 순수함수의 장점은?                                   | ⭐️ 필수 |
-| 커링 함수(Curry Function)의 예와 이 문법이 주는 장점은 무엇인가요?          | ✅ 중요  |
-| 메소드 체이닝이란 무엇이며, 이것의 장단점은 무엇인가?                       | ✅ 중요  |
-| JavaScript로 객체지향 프로그래밍(OOP)을 적용할 때 어떤 식으로 접근하시나요? | ✅ 중요  |
-| 싱글톤 패턴에 대해..                                                        | 🔍 참고  |
-| 가변(Mutable) 객체와 불변(Immutable) 객체의 차이는?                         | ✅ 중요  |
-| JavaScript에서 불변 객체의 예는?                                            | 🔍 참고  |
-| 불변 객체를 사용할 때의 장단점은?                                           | ✅ 중요  |
-| 코드에서 불변성을 어떻게 구현하나요?                                        | ✅ 중요  |
-| Compose, Pipe는 무엇인가요?                                                 | 🔍 참고  |
-| Ramda, Lodash 등 함수형 라이브러리 써본 경험 있나요?                        | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                                                                      |  중요도  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [함수형 프로그래밍](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1)                                                                                                                                                                                                                                              | ✅ 중요  |
+| [순수함수는 무엇인가요? 순수함수의 장점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EC%88%9C%EC%88%98%ED%95%A8%EC%88%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%88%9C%EC%88%98%ED%95%A8%EC%88%98%EC%9D%98-%EC%9E%A5%EC%A0%90%EC%9D%80)                                                                                                                            | ⭐️ 필수 |
+| [커링 함수(Curry Function)의 예와 이 문법이 주는 장점은 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EC%BB%A4%EB%A7%81-%ED%95%A8%EC%88%98curry-function%EC%9D%98-%EC%98%88%EC%99%80-%EC%9D%B4-%EB%AC%B8%EB%B2%95%EC%9D%B4-%EC%A3%BC%EB%8A%94-%EC%9E%A5%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                      | ✅ 중요  |
+| [메소드 체이닝이란 무엇이며, 이것의 장단점은 무엇인가?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EB%A9%94%EC%86%8C%EB%93%9C-%EC%B2%B4%EC%9D%B4%EB%8B%9D%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0-%EC%9D%B4%EA%B2%83%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)                                                                 | ✅ 중요  |
+| [JavaScript로 객체지향 프로그래밍(OOP)을 적용할 때 어떤 식으로 접근하시나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#javascript%EB%A1%9C-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8Doop%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%95%A0-%EB%95%8C-%EC%96%B4%EB%96%A4-%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EC%A0%91%EA%B7%BC%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94) | ✅ 중요  |
+| [싱글톤 패턴에 대해..](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4)                                                                                                                                                                                                                                            | 🔍 참고  |
+| [가변(Mutable) 객체와 불변(Immutable) 객체의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EA%B0%80%EB%B3%80mutable-%EA%B0%9D%EC%B2%B4%EC%99%80-%EB%B6%88%EB%B3%80immutable-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                                                                              | ✅ 중요  |
+| [JavaScript에서 불변 객체의 예는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#javascript%EC%97%90%EC%84%9C-%EB%B6%88%EB%B3%80-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EC%98%88%EB%8A%94)                                                                                                                                                                                                            | 🔍 참고  |
+| [불변 객체를 사용할 때의 장단점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EC%BD%94%EB%93%9C%EC%97%90%EC%84%9C-%EB%B6%88%EB%B3%80%EC%84%B1%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)                                                                                                                                                      | ✅ 중요  |
+| [코드에서 불변성을 어떻게 구현하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#%EC%BD%94%EB%93%9C%EC%97%90%EC%84%9C-%EB%B6%88%EB%B3%80%EC%84%B1%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)                                                                                                                                                   | ✅ 중요  |
+| [Compose, Pipe는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#compose-pipe%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                                                                                                                                                            | 🔍 참고  |
+| [Ramda, Lodash 등 함수형 라이브러리 써본 경험 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming#ramda-lodash-%EB%93%B1-%ED%95%A8%EC%88%98%ED%98%95-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%8D%A8%EB%B3%B8-%EA%B2%BD%ED%97%98-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                                    | 🔍 참고  |
 
 ### 타입스크립트
 
