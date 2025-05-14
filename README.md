@@ -29,7 +29,7 @@
   - [가비지컬랙터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector)
   - [함수형 프로그래밍](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming)
   - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
-  - 프로젝트
+  - [프로젝트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project)
 - [React](https://github.com/SeoYeonii/frontend-interview/tree/main/react)
   - React 기본 개념
   - React Router

@@ -10,7 +10,7 @@
 - [가비지컬랙터](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/garbage-collector)
 - [함수형 프로그래밍](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/functional-programming)
 - [타입스크립트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/typescript)
-- 프로젝트
+- [프로젝트](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project)
 
 ## 질문지
 
@@ -232,16 +232,16 @@
 
 ### 프로젝트
 
-| 질문                                                                |  중요도  |
-| :------------------------------------------------------------------ | :------: |
-| input에 딜레이를 걸려면 어떻게 할까요?                              | ✅ 중요  |
-| 디바운스, 쓰로틀에 대해 설명해주세요. 코드를 직접 작성할 수 있는지? | ⭐️ 필수 |
-| JavaScript 코드를 디버깅할 때 사용하는 도구나 기법은 무엇인가요?    | ⭐️ 필수 |
-| 여러 파일 간 코드를 공유하는 방법에는 어떤 것들이 있나요?           | ✅ 중요  |
-| 코드 스플리팅이 필요한 이유는?                                      | ✅ 중요  |
-| 웹팩/번들러 없이 JS 프로젝트 구조를 어떻게 관리하나요?              | 🔍 참고  |
-| Webpack과 Vite의 차이는?                                            | ✅ 중요  |
-| 번들링과 트리 쉐이킹(Tree-shaking)이란?                             | ⭐️ 필수 |
-| Dynamic Import란?                                                   | ✅ 중요  |
-| SPA에서 초기 로딩을 최적화하려면?                                   | ✅ 중요  |
-| JS 프로젝트 디렉토리 구조를 어떻게 구성하나요?                      | 🔍 참고  |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                                                     |  중요도  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| [input에 딜레이를 걸려면 어떻게 할까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#input%EC%97%90-%EB%94%9C%EB%A0%88%EC%9D%B4%EB%A5%BC-%EA%B1%B8%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C%EC%9A%94)                                                                                                                                                           | ✅ 중요  |
+| [디바운스, 쓰로틀에 대해 설명해주세요. 코드를 직접 작성할 수 있는지?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#%EB%94%94%EB%B0%94%EC%9A%B4%EC%8A%A4-%EC%93%B0%EB%A1%9C%ED%8B%80%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%A7%81%EC%A0%91-%EC%9E%91%EC%84%B1%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94%EC%A7%80) | ⭐️ 필수 |
+| [JavaScript 코드를 디버깅할 때 사용하는 도구나 기법은 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#javascript-%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%A0-%EB%95%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%8F%84%EA%B5%AC%EB%82%98-%EA%B8%B0%EB%B2%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                        | ⭐️ 필수 |
+| [여러 파일 간 코드를 공유하는 방법에는 어떤 것들이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#%EC%97%AC%EB%9F%AC-%ED%8C%8C%EC%9D%BC-%EA%B0%84-%EC%BD%94%EB%93%9C%EB%A5%BC-%EA%B3%B5%EC%9C%A0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%97%90%EB%8A%94-%EC%96%B4%EB%96%A4-%EA%B2%83%EB%93%A4%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)                                               | ✅ 중요  |
+| [코드 스플리팅이 필요한 이유는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#%EC%BD%94%EB%93%9C-%EC%8A%A4%ED%94%8C%EB%A6%AC%ED%8C%85%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0%EB%8A%94)                                                                                                                                                                                  | ✅ 중요  |
+| [웹팩/번들러 없이 JS 프로젝트 구조를 어떻게 관리하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#%EC%9B%B9%ED%8C%A9%EB%B2%88%EB%93%A4%EB%9F%AC-%EC%97%86%EC%9D%B4-js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B4%80%EB%A6%AC%ED%95%98%EB%82%98%EC%9A%94)                                                                    | 🔍 참고  |
+| [Webpack과 Vite의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#webpack%EA%B3%BC-vite%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                                                                                                                                                                                      | ✅ 중요  |
+| [번들링과 트리 쉐이킹(Tree-shaking)이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#%EB%B2%88%EB%93%A4%EB%A7%81%EA%B3%BC-%ED%8A%B8%EB%A6%AC-%EC%89%90%EC%9D%B4%ED%82%B9tree-shaking%EC%9D%B4%EB%9E%80)                                                                                                                                                                                | ⭐️ 필수 |
+| [Dynamic Import란?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#dynamic-import%EB%9E%80)                                                                                                                                                                                                                                                                                                | ✅ 중요  |
+| [SPA에서 초기 로딩을 최적화하려면?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#spa%EC%97%90%EC%84%9C-%EC%B4%88%EA%B8%B0-%EB%A1%9C%EB%94%A9%EC%9D%84-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%98%EB%A0%A4%EB%A9%B4)                                                                                                                                                                            | ✅ 중요  |
+| [JS 프로젝트 디렉토리 구조를 어떻게 구성하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/javascript/project#js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%EC%84%B1%ED%95%98%EB%82%98%EC%9A%94)                                                                                                        | 🔍 참고  |
