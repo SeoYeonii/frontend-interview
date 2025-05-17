@@ -33,7 +33,7 @@
 - [React](https://github.com/SeoYeonii/frontend-interview/tree/main/react)
   - [React 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/react/general)
   - [React Router](https://github.com/SeoYeonii/frontend-interview/tree/main/react/react-router)
-  - Hook
+  - [Hook](https://github.com/SeoYeonii/frontend-interview/tree/main/react/hooks)
   - 성능
 - [네트워크](https://github.com/SeoYeonii/frontend-interview/tree/main/network)
   - 기본 이론
