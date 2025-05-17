@@ -65,7 +65,7 @@ React Router v6 초창기 (2022~2023년) 즈음에 페이지 이탈 방지 기�
 
 ## React Router v6에서 중첩 라우트를 어떻게 구성하나요?
 
-중첩 라우트를 구성하기 위해 <Route>의 children으로 다른 <Route>를 배치하고, 부모 컴포넌트 안에서 <Outlet /> 컴포넌트를 사용하여 자식 컴포넌트를 렌더링함.
+중첩 라우트를 구성하기 위해 `<Route>`의 children으로 다른 `<Route>`를 배치하고, 부모 컴포넌트 안에서 `<Outlet />` 컴포넌트를 사용하여 자식 컴포넌트를 렌더링함.
 
 - 이 방식은 다단계 페이지 구조(예: /dashboard/settings, /dashboard/profile)를 깔끔하게 표현할 수 있게 해주며, 부모-자식 관계의 뷰 계층 구조를 자연스럽게 구성할 수 있음
 - 또 중첩 라우트를 쓰면 각 뷰의 loader, errorElement, lazy() 같은 기능을 라우트 단위로 분리 적용할 수 있어서, React Router v6.4 이상에서는 데이터 로딩 최적화까지 할 수 있음
