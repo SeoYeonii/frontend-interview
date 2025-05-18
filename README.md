@@ -48,6 +48,20 @@
   - 프로젝트 공통
 
 - [자료구조](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure)
+
+  - 기초 자료구조
+
+    - Array
+    - Stack / Queue
+    - Linked List
+    - Hash (Map / Set)
+    - Heap
+    - Tree (Binary Tree / BST)
+
+  - 탐색/응용 자료구조
+    - Graph (BFS / DFS)
+    - Trie
+
 - [알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm)
 
 [ 추후 추가]

@@ -1,14 +1,17 @@
 ## 카테고리
 
-- Array
-- Linked List
-- Array & ArrayList & Linked List
-- Stack
-- Queue
-- Heap
-- Hash
-- 트라이
-- B-Tree & B+Tree
+- 기초 자료구조
+
+  - Array
+  - Stack / Queue
+  - Linked List
+  - Hash (Map / Set)
+  - Heap
+  - Tree (Binary Tree / BST)
+
+- 탐색/응용 자료구조
+  - Graph (BFS / DFS)
+  - Trie
 
 ## 질문지
 
