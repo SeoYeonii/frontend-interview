@@ -51,16 +51,16 @@
 
   - 기초 자료구조
 
-    - Array
-    - Stack / Queue
-    - Linked List
-    - Hash (Map / Set)
-    - Heap
-    - Tree (Binary Tree / BST)
+    - [Array](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array)
+    - [Stack / Queue](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue)
+    - [Linked List](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list)
+    - [Hash (Map / Set)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set)
+    - [Heap](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap)
+    - [Tree (Binary Tree / BST)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree)
 
   - 탐색/응용 자료구조
-    - Graph (BFS / DFS)
-    - Trie
+    - [Graph (BFS / DFS)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph)
+    - [Trie](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie)
 
 - [알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm)
 

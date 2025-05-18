@@ -2,112 +2,111 @@
 
 - 기초 자료구조
 
-  - Array
-  - Stack / Queue
-  - Linked List
-  - Hash (Map / Set)
-  - Heap
-  - Tree (Binary Tree / BST)
+  - [Array](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array)
+  - [Stack / Queue](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue)
+  - [Linked List](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list)
+  - [Hash (Map / Set)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set)
+  - [Heap](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap)
+  - [Tree (Binary Tree / BST)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree)
 
 - 탐색/응용 자료구조
-  - Graph (BFS / DFS)
-  - Trie
+  - [Graph (BFS / DFS)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph)
+  - [Trie](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie)
 
 ## 질문지
 
 ### Array
 
-| 질문                                                                                 |
-| :----------------------------------------------------------------------------------- |
-| Array 기본 설명                                                                      |
-| `forEach`와 `map`의 차이는?                                                          |
-| `filter`는 원본 배열을 변경하나요?                                                   |
-| `reduce`로 map/filter를 구현할 수 있나요?                                            |
-| `sort()`는 왜 기대와 다르게 작동할 수 있나요? (`[10, 2, 30].sort()` → `[10, 2, 30]`) |
-| Array.prototype.sort()에서 a - b를 하면 오름차순이 되는 이유                         |
-| 깊은 복사를 하려면 어떻게 하나요?                                                    |
+| 질문                                                                                                                                                                                                                                                                                                                                          |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Array 기본 설명](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#js-array%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EB%AA%85)                                                                                                                                                                                     |
+| [`forEach`와 `map`의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#foreach%EC%99%80-map%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                                                                                                       |
+| [`filter`는 원본 배열을 변경하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#filter%EB%8A%94-%EC%9B%90%EB%B3%B8-%EB%B0%B0%EC%97%B4%EC%9D%84-%EB%B3%80%EA%B2%BD%ED%95%98%EB%82%98%EC%9A%94)                                                                                                             |
+| [`reduce`로 map/filter를 구현할 수 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#reduce%EB%A1%9C-mapfilter%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                              |
+| [`sort()`는 왜 기대와 다르게 작동할 수 있나요? (`[10, 2, 30].sort()` → `[10, 2, 30]`)](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#sort%EB%8A%94-%EC%99%9C-%EA%B8%B0%EB%8C%80%EC%99%80-%EB%8B%A4%EB%A5%B4%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-10-2-30sort--10-2-30) |
+| [Array.prototype.sort()에서 a - b를 하면 오름차순이 되는 이유](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#arrayprototypesort%EC%97%90%EC%84%9C-a---b%EB%A5%BC-%ED%95%98%EB%A9%B4-%EC%98%A4%EB%A6%84%EC%B0%A8%EC%88%9C%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)                                     |
+| [깊은 복사를 하려면 어떻게 하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/array#%EA%B9%8A%EC%9D%80-%EB%B3%B5%EC%82%AC%EB%A5%BC-%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%98%EB%82%98%EC%9A%94)                                                                                        |
 
 ### Stack & Queue
 
-| 질문                                                   |
-| :----------------------------------------------------- |
-| Stack과 Queue의 차이를 설명해보세요.                   |
-| Q1. Stack과 Queue의 차이를 설명해보세요.               |
-| JS에서는 Stack과 Queue를 어떻게 구현하나요?            |
-| Queue를 class 기반으로 직접 구현해본 적 있나요?        |
-| Stack이나 Queue를 프론트엔드에서 사용한 경험이 있나요? |
-| JS에서 shift가 느린 이유는 뭔가요?                     |
+| 질문                                                                                                                                                                                                                                                                                                                                      |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Stack과 Queue의 차이를 설명해보세요.](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue#stack%EA%B3%BC-queue%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94)                                                                                             |
+| [JS에서는 Stack과 Queue를 어떻게 구현하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue#js%EC%97%90%EC%84%9C%EB%8A%94-stack%EA%B3%BC-queue%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)                                                                 |
+| [Queue를 class 기반으로 직접 구현해본 적 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue#queue%EB%A5%BC-class-%EA%B8%B0%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B8-%EC%A0%81-%EC%9E%88%EB%82%98%EC%9A%94)                                           |
+| [Stack이나 Queue를 프론트엔드에서 사용한 경험이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue#stack%EC%9D%B4%EB%82%98-queue%EB%A5%BC-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%B2%BD%ED%97%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94) |
+| [JS에서 shift가 느린 이유는 뭔가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/stack-queue#js%EC%97%90%EC%84%9C-shift%EA%B0%80-%EB%8A%90%EB%A6%B0-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AD%94%EA%B0%80%EC%9A%94)                                                                                                 |
 
 ## Linked List
 
-| 질문                                                               |
-| :----------------------------------------------------------------- |
-| Linked List란 무엇인가요? Array와 어떤 차이가 있나요?              |
-| JS에는 기본 Linked List가 없는데, 왜 그럴까요?                     |
-| 단일 연결 리스트를 JS로 구현해보세요.                              |
-| 중간 노드를 삭제하는 함수는 어떻게 만들 수 있을까요?               |
-| 연결 리스트에서 사이클이 존재하는지 어떻게 확인할 수 있을까요?     |
-| 배열과 연결 리스트 중 어떤 상황에서 Linked List를 선택하시겠어요?  |
-| 두 개의 정렬된 연결 리스트를 하나로 병합하는 로직은 어떻게 짜나요? |
-| 연결 리스트를 역순으로 바꾸는 알고리즘은?                          |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Linked List란 무엇인가요? Array와 어떤 차이가 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#linked-list%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-array%EC%99%80-%EC%96%B4%EB%96%A4-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                                       |
+| [JS에는 기본 Linked List가 없는데, 왜 그럴까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#js%EC%97%90%EB%8A%94-%EA%B8%B0%EB%B3%B8-linked-list%EA%B0%80-%EC%97%86%EB%8A%94%EB%8D%B0-%EC%99%9C-%EA%B7%B8%EB%9F%B4%EA%B9%8C%EC%9A%94)                                                                                                                                                   |
+| [단일 연결 리스트를 JS로 구현해보세요.](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#js%EC%97%90%EB%8A%94-%EA%B8%B0%EB%B3%B8-linked-list%EA%B0%80-%EC%97%86%EB%8A%94%EB%8D%B0-%EC%99%9C-%EA%B7%B8%EB%9F%B4%EA%B9%8C%EC%9A%94)                                                                                                                                                            |
+| [중간 노드를 삭제하는 함수는 어떻게 만들 수 있을까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#%EC%A4%91%EA%B0%84-%EB%85%B8%EB%93%9C%EB%A5%BC-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%ED%95%A8%EC%88%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)                                                                       |
+| [연결 리스트에서 사이클이 존재하는지 어떻게 확인할 수 있을까요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%97%90%EC%84%9C-%EC%82%AC%EC%9D%B4%ED%81%B4%EC%9D%B4-%EC%A1%B4%EC%9E%AC%ED%95%98%EB%8A%94%EC%A7%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%99%95%EC%9D%B8%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)                |
+| [배열과 연결 리스트 중 어떤 상황에서 Linked List를 선택하시겠어요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#%EB%B0%B0%EC%97%B4%EA%B3%BC-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%A4%91-%EC%96%B4%EB%96%A4-%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-linked-list%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%98%EC%8B%9C%EA%B2%A0%EC%96%B4%EC%9A%94)                                      |
+| [두 개의 정렬된 연결 리스트를 하나로 병합하는 로직은 어떻게 짜나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#%EB%91%90-%EA%B0%9C%EC%9D%98-%EC%A0%95%EB%A0%AC%EB%90%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A5%BC-%ED%95%98%EB%82%98%EB%A1%9C-%EB%B3%91%ED%95%A9%ED%95%98%EB%8A%94-%EB%A1%9C%EC%A7%81%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%9C%EB%82%98%EC%9A%94) |
+| [연결 리스트를 역순으로 바꾸는 알고리즘은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/linked-list#%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%97%AD%EC%88%9C%EC%9C%BC%EB%A1%9C-%EB%B0%94%EA%BE%B8%EB%8A%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%80)                                                                                                                         |
 
 ## Hash (Map / Set)
 
-| 질문                                                  |
-| :---------------------------------------------------- |
-| Hash Table이란 무엇인가요?                            |
-| 로드 팩터란 무엇인가요?                               |
-| 해시 함수?                                            |
-| 충돌 해결방법?                                        |
-| JS에서 Hash Table을 사용할 수 있는 객체는 무엇인가요? |
-| Map과 Object의 차이점은 무엇인가요?                   |
-| 배열에서 중복을 제거하는 방법은?                      |
-| 두 배열의 교집합을 구하는 법은?                       |
-| Map을 사용했을 때 겪은 장점은?                        |
-| Map/Set을 사용할 때 시간 복잡도는 어떻게 되나요?      |
+| 질문                                                                                                                                                                                                                                                                                                                       |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Hash Table이란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#hash-table%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                                             |
+| [로드 팩터란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#%EB%A1%9C%EB%93%9C%ED%8C%A9%ED%84%B0%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                               |
+| [해시 함수?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#%ED%95%B4%EC%8B%9C-%ED%95%A8%EC%88%98)                                                                                                                                                                                  |
+| [충돌 해결방법?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#%EC%B6%A9%EB%8F%8C-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)                                                                                                                                                            |
+| [JS에서 Hash Table을 사용할 수 있는 객체는 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#js%EC%97%90%EC%84%9C-hash-table%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B0%9D%EC%B2%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94) |
+| [Map과 Object의 차이점은 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#map%EA%B3%BC-object%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                               |
+| [배열에서 중복을 제거하는 방법은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#%EB%B0%B0%EC%97%B4%EC%97%90%EC%84%9C-%EC%A4%91%EB%B3%B5%EC%9D%84-%EC%A0%9C%EA%B1%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80)                                                                |
+| [두 배열의 교집합을 구하는 법은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#%EB%B0%B0%EC%97%B4%EC%97%90%EC%84%9C-%EC%A4%91%EB%B3%B5%EC%9D%84-%EC%A0%9C%EA%B1%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80)                                                                 |
+| [Map을 사용했을 때 겪은 장점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#map%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%96%88%EC%9D%84-%EB%95%8C-%EC%9E%A5%EC%A0%90%EC%9D%80)                                                                                                            |
+| [Map/Set을 사용할 때 시간 복잡도는 어떻게 되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/hash-map-set#mapset%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EB%95%8C-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98%EC%9A%94)            |
 
 ## Heap
 
-| 질문                                            |
-| :---------------------------------------------- |
-| Heap이란 무엇인가요?                            |
-| Heap은 어떤 상황에서 사용하나요?                |
-| JavaScript에는 Heap이 없는데 어떻게 구현하나요? |
-| 간단한 Min Heap 클래스 구조 구현                |
-| Heap의 주요 연산 시간 복잡도는?                 |
+| 질문                                                                                                                                                                                                                                                                              |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Heap이란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap#heap%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                        |
+| [Heap은 어떤 상황에서 사용하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap#heap%EC%9D%80-%EC%96%B4%EB%96%A4-%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)                                             |
+| [JavaScript에는 Heap이 없는데 어떻게 구현하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap#javascript%EC%97%90%EB%8A%94-heap%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94) |
+| [간단한 Min Heap 클래스 구조 구현](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap#%EA%B0%84%EB%8B%A8%ED%95%9C-min-heap-%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B5%AC%EC%A1%B0-%EA%B5%AC%ED%98%84)                                                          |
+| [Heap의 주요 연산 시간 복잡도는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/heap#heap%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%97%B0%EC%82%B0-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84%EB%8A%94)                                                      |
 
 ## Tree (Binary Tree / BST)
 
-| 질문                                                       |
-| :--------------------------------------------------------- |
-| Tree란 무엇인가요?                                         |
-| Binary Tree와 Binary Search Tree의 차이는?                 |
-| Tree 순회에는 어떤 방식이 있나요?                          |
-| BFS는 어떻게 구현하나요?                                   |
-| 이진 탐색 트리에서 값을 삽입하는 로직은 어떻게 동작하나요? |
-| 이진 트리의 최대 깊이를 구하는 알고리즘은?                 |
-| 이진 트리의 균형 여부를 판단하려면?                        |
-| 이진탐색 트리를 사용할 수 없는 경우가 있나요?              |
-| 프론트엔드에서 트리를 사용한 경험이 있나요?                |
+| 질문                                                                                                                                                                                                                                                                                                                                                                                 |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Tree란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#tree%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                                                                                                                                      |
+| [Binary Tree와 Binary Search Tree의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#binary-tree%EC%99%80-binary-search-tree%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                                                                                                             |
+| [Tree 순회에는 어떤 방식이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#tree-%EC%88%9C%ED%9A%8C%EC%97%90%EB%8A%94-%EC%96%B4%EB%96%A4-%EB%B0%A9%EC%8B%9D%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                                                              |
+| [BFS는 어떻게 구현하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#bfs%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)                                                                                                                                                                                     |
+| [이진 탐색 트리에서 값을 삽입하는 로직은 어떻게 동작하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC%EC%97%90%EC%84%9C-%EA%B0%92%EC%9D%84-%EC%82%BD%EC%9E%85%ED%95%98%EB%8A%94-%EB%A1%9C%EC%A7%81%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98%EC%9A%94) |
+| [이진 트리의 최대 깊이를 구하는 알고리즘은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%B5%9C%EB%8C%80-%EA%B9%8A%EC%9D%B4%EB%A5%BC-%EA%B5%AC%ED%95%98%EB%8A%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%80)                                                                                  |
+| [이진 트리의 균형 여부를 판단하려면?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EA%B7%A0%ED%98%95-%EC%97%AC%EB%B6%80%EB%A5%BC-%ED%8C%90%EB%8B%A8%ED%95%98%EB%A0%A4%EB%A9%B4)                                                                                                                     |
+| [이진탐색 트리를 사용할 수 없는 경우가 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89-%ED%8A%B8%EB%A6%AC%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%97%86%EB%8A%94-%EA%B2%BD%EC%9A%B0%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)                                                                     |
+| [프론트엔드에서 트리를 사용한 경험이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/tree#%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-%ED%8A%B8%EB%A6%AC%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%B2%BD%ED%97%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)                                                                         |
 
 ## Graph (BFS / DFS)
 
-| 질문                                                      |
-| :-------------------------------------------------------- |
-| 그래프란 무엇인가요?                                      |
-| 그래프를 표현하는 방법에는 어떤 게 있나요?                |
-| DFS와 BFS의 차이점은?                                     |
-| BFS로 최단 거리 구하는 문제에서 레벨을 어떻게 체크하나요? |
-| 프론트엔드 실무에서 DFS/BFS를 사용한 경험이 있나요?       |
-| DFS/BFS의 시간복잡도는?                                   |
+| 질문                                                                                                                                                                                                                                                                                                                                                                  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [그래프란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#%EA%B7%B8%EB%9E%98%ED%94%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                                                                                             |
+| [그래프를 표현하는 방법에는 어떤 게 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#%EA%B7%B8%EB%9E%98%ED%94%84%EB%A5%BC-%ED%91%9C%ED%98%84%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%97%90%EB%8A%94-%EC%96%B4%EB%96%A4-%EA%B2%8C-%EC%9E%88%EB%82%98%EC%9A%94)                                                                  |
+| [DFS와 BFS의 차이점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#dfs%EC%99%80-bfs%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80)                                                                                                                                                                                                |
+| [BFS로 최단 거리 구하는 문제에서 레벨을 어떻게 체크하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#bfs%EB%A1%9C-%EC%B5%9C%EB%8B%A8-%EA%B1%B0%EB%A6%AC-%EA%B5%AC%ED%95%98%EB%8A%94-%EB%AC%B8%EC%A0%9C%EC%97%90%EC%84%9C-%EB%A0%88%EB%B2%A8%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%B2%B4%ED%81%AC%ED%95%98%EB%82%98%EC%9A%94) |
+| [프론트엔드 실무에서 DFS/BFS를 사용한 경험이 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-dfsbfs%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%B2%BD%ED%97%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)                                          |
+| [DFS/BFS의 시간복잡도는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/graph#dfsbfs%EC%9D%98-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EB%8A%94)                                                                                                                                                                                      |
 
 ## Trie
 
-| 질문                                                    |
-| :------------------------------------------------------ |
-| Trie란 무엇인가요?                                      |
-| Trie에서 “apple”과 “app”을 모두 삽입하면 어떻게 되나요? |
-| Trie의 주요 사용 사례는?                                |
-| JavaScript로 간단한 Trie를 어떻게 구현하나요?           |
-| Trie의 시간복잡도는 어떻게 되나요?                      |
-| Trie와 Hash Map의 차이는?                               |
+| 질문                                                                                                                                                                                                                                                                                                        |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Trie란 무엇인가요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#trie%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)                                                                                                                                             |
+| [Trie에서 “apple”과 “app”을 모두 삽입하면 어떻게 되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#trie%EC%97%90%EC%84%9C-apple%EA%B3%BC-app%EC%9D%84-%EB%AA%A8%EB%91%90-%EC%82%BD%EC%9E%85%ED%95%98%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98%EC%9A%94) |
+| [Trie의 주요 사용 사례는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#trie%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%82%AC%EC%9A%A9-%EC%82%AC%EB%A1%80%EB%8A%94)                                                                                                                   |
+| [JavaScript로 간단한 Trie를 어떻게 구현하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#javascript%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-trie%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)                                      |
+| [Trie의 시간복잡도는 어떻게 되나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#trie%EC%9D%98-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98%EC%9A%94)                                                            |
+| [Trie와 Hash Map의 차이는?](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie#trie%EC%99%80-hash-map%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94)                                                                                                                                      |
