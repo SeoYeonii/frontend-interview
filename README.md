@@ -34,7 +34,7 @@
   - [React 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/react/general)
   - [React Router](https://github.com/SeoYeonii/frontend-interview/tree/main/react/react-router)
   - [Hook](https://github.com/SeoYeonii/frontend-interview/tree/main/react/hooks)
-  - 성능
+  - [성능](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance)
 - [네트워크](https://github.com/SeoYeonii/frontend-interview/tree/main/network)
   - 기본 이론
   - 브라우저 작동 원리

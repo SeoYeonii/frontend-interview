@@ -3,7 +3,7 @@
 - [React 기본 개념](https://github.com/SeoYeonii/frontend-interview/tree/main/react/general)
 - [React Router](https://github.com/SeoYeonii/frontend-interview/tree/main/react/react-router)
 - [Hook](https://github.com/SeoYeonii/frontend-interview/tree/main/react/hooks)
-- 성능
+- [성능](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance)
 
 ## 질문지
 
@@ -164,14 +164,14 @@
 
 ### 성능
 
-| 질문                                                      | 중요도  |
-| :-------------------------------------------------------- | :-----: |
-| Concurrent Rendering이란?                                 | ✅ 중요 |
-| Async Mode vs Concurrent Mode 차이점은?                   | ✅ 중요 |
-| React Server Component란?                                 | ✅ 중요 |
-| React에서 hydration이란?                                  | ✅ 중요 |
-| 코드 스플리팅이란?                                        | ✅ 중요 |
-| React는 상태 업데이트를 어떻게 batching(묶음 처리)하나요? | ✅ 중요 |
-| 자동 batching을 막을 수 있나요?                           | 🔍 참고 |
-| 컴포넌트 내부에 또 다른 함수형 컴포넌트를 정의하면?       | ✅ 중요 |
-| windowing 기법이란?                                       | 🔍 참고 |
+| 질문                                                                                                                                                                                                                                                                                                                                            | 중요도  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
+| [Concurrent Rendering이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#concurrent-rendering%EC%9D%B4%EB%9E%80)                                                                                                                                                                                                 | ✅ 중요 |
+| [Async Mode vs Concurrent Mode 차이점은?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#async-mode-vs-concurrent-mode-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80)                                                                                                                                                       | ✅ 중요 |
+| [React Server Component란?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#react-server-component%EB%9E%80)                                                                                                                                                                                                        | ✅ 중요 |
+| [ React에서 hydration이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#react%EC%97%90%EC%84%9C-hydration%EC%9D%B4%EB%9E%80)                                                                                                                                                                                    | ✅ 중요 |
+| [코드 스플리팅이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#%EC%BD%94%EB%93%9C-%EC%8A%A4%ED%94%8C%EB%A6%AC%ED%8C%85%EC%9D%B4%EB%9E%80)                                                                                                                                                                     | ✅ 중요 |
+| [React는 상태 업데이트를 어떻게 batching(묶음 처리)하나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#react%EB%8A%94-%EC%83%81%ED%83%9C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-batching%EB%AC%B6%EC%9D%8C-%EC%B2%98%EB%A6%AC%ED%95%98%EB%82%98%EC%9A%94)                   | ✅ 중요 |
+| [자동 batching을 막을 수 있나요?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#%EC%9E%90%EB%8F%99-batching%EC%9D%84-%EB%A7%89%EC%9D%84-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)                                                                                                                                    | 🔍 참고 |
+| [컴포넌트 내부에 또 다른 함수형 컴포넌트를 정의하면?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EB%82%B4%EB%B6%80%EC%97%90-%EB%98%90-%EB%8B%A4%EB%A5%B8-%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC-%EC%A0%95%EC%9D%98%ED%95%98%EB%A9%B4) | ✅ 중요 |
+| [windowing 기법이란?](https://github.com/SeoYeonii/frontend-interview/tree/main/react/performance#windowing-%EA%B8%B0%EB%B2%95%EC%9D%B4%EB%9E%80)                                                                                                                                                                                               | 🔍 참고 |
