@@ -64,14 +64,14 @@
 
 - [알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm)
   - 정렬 알고리즘
-    - 버블 / 선택 / 삽입
-    - 병합 / 퀵 / 힙
+    - [버블 / 선택 / 삽입](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/bubble-select-insert)
+    - [병합 / 퀵 / 힙](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/merge-quick-heap)
   - 탐색
-    - 이분 탐색
-  - 투 포인터 / 슬라이딩 윈도우
-  - 백트래킹 (순열/조합)
-  - 그리디 알고리즘
-  - 동적 계획법 (DP)
+    - [이분 탐색](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/binary-search)
+  - [투 포인터 / 슬라이딩 윈도우](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/two-pointer-window)
+  - [백트래킹 (순열/조합)](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/back-tracking)
+  - [그리디 알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/greedy)
+  - [동적 계획법 (DP)](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm/dp)
 
 [ 추후 추가]
 
