@@ -63,6 +63,19 @@
     - [Trie](https://github.com/SeoYeonii/frontend-interview/tree/main/data-structure/trie)
 
 - [알고리즘](https://github.com/SeoYeonii/frontend-interview/tree/main/algorithm)
+  - 정렬 알고리즘
+    - 버블 / 선택 / 삽입
+    - 병합 / 퀵 / 힙
+  - 탐색
+    - 이분 탐색
+  - 해시 / Map / Set
+    - 해시 테이블 구현, 충돌 해결
+  - DFS / BFS (그래프 탐색)
+  - 투 포인터 / 슬라이딩 윈도우
+  - 백트래킹 (순열/조합)
+  - 그리디 알고리즘
+  - 동적 계획법 (DP)
+  - 우선순위 큐 / Heap
 
 [ 추후 추가]
 
